@@ -12,33 +12,33 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/java_tag.png', 0) }
                 >    
-                    <img src={ `${process.env.PUBLIC_URL}/images/java_button.png` } alt='java tiramisu' className='lang-img'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/java_button.PNG` } alt='java tiramisu' className='lang-img'/>
                 </button>
 
                 <button 
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/python_tag.png', 1) }
                 >
-                        <img src={ `${process.env.PUBLIC_URL}/images/python_button.png` } alt='python macarons' className='lang-img'/>
+                        <img src={ `${process.env.PUBLIC_URL}/images/python_button.PNG` } alt='python macarons' className='lang-img'/>
                 </button>
 
                 <button 
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/swift_tag.png', 2) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/swift_button.png` } alt='swift lemon tart' className='lang-img'id='swift-lemon'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/swift_button.PNG` } alt='swift lemon tart' className='lang-img'id='swift-lemon'/>
                 </button>
 
                 <button 
                     className='lang-buttons'
-                    onClick={ () => popUpImg('/images/kotlin_tag.png', 3) }
+                    onClick={ () => popUpImg('/images/kotlin_tag.PNG', 3) }
                 >
                     <img src={ `${process.env.PUBLIC_URL}/images/kotlin_button.png`} alt='kotlin mille feuille' className='lang-img'/>
                 </button>
 
                 <button 
                     className='lang-buttons'
-                    onClick={ () => popUpImg('/images/javascript_tag.png', 4) }
+                    onClick={ () => popUpImg('/images/javascript_tag.PNG', 4) }
                 >
                     <img src={ `${process.env.PUBLIC_URL}/images/javascript_button.png` } alt='javascript cupcake' className='lang-img'/>
                 </button>
@@ -48,7 +48,7 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
             <div className='shelf-mid'>
                 <button 
                     className='lang-buttons'
-                    onClick={ () => popUpImg('/images/html_tag.png', 5) }
+                    onClick={ () => popUpImg('/images/html_tag.PNG', 5) }
                 >
                     <img src={ `${process.env.PUBLIC_URL}/images/html_button.png` } alt='html cookies' className='lang-img'/>
                 </button>
@@ -57,7 +57,7 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/css_tag.png', 6) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/css_button.png` } alt='css parfait' className='lang-img' id='css-parfait'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/css_button.PNG` } alt='css parfait' className='lang-img' id='css-parfait'/>
                 </button>
 
                 <button 
@@ -78,7 +78,7 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/c_sharp_tag.png', 9) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/c_sharp_button.png` } alt='c sharp black forrest cake' className='lang-img'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/c_sharp_button.PNG` } alt='c sharp black forrest cake' className='lang-img'/>
                 </button>
 
             </div>
@@ -88,14 +88,14 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/c_tag.png', 10) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/c_button.png` } alt='c scones' className='lang-img'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/c_button.PNG` } alt='c scones' className='lang-img'/>
                 </button>
     
                 <button 
                     className='lang-buttons'
                     onClick={ () => popUpImg('/images/c_plus_plus_tag.png', 11) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/c_plus_plus_button.png` } alt='c plus plus flan' className='lang-img' id='c-plus-plus-flan'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/c_plus_plus_button.PNG` } alt='c plus plus flan' className='lang-img' id='c-plus-plus-flan'/>
                 </button>
             </div>
         </div>

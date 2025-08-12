@@ -101,21 +101,21 @@ function Home() {
                             className='socials-buttons'
                             onClick={ () => setLetter(true) }    
                         >
-                            <img src={ `${process.env.PUBLIC_URL}/images/email_button.png` } alt='email coffee' className='socials-img'/>
+                            <img src={ `${process.env.PUBLIC_URL}/images/email_button.PNG` } alt='email coffee' className='socials-img'/>
                         </button>
 
                         <button 
                             className='socials-buttons'
                             onClick={() => window.open('https://github.com/mhan1024', '_blank')}
                         >
-                            <img src={ `${process.env.PUBLIC_URL}/images/github_button.png` } alt='github coffee' className='socials-img'/>
+                            <img src={ `${process.env.PUBLIC_URL}/images/github_button.PNG` } alt='github coffee' className='socials-img'/>
                         </button>
 
                         <button 
                             className='socials-buttons'
                             onClick={() => window.open('https://www.linkedin.com/in/michelle-han-2a2629279/', '_blank')}
                         >
-                            <img src={ `${process.env.PUBLIC_URL}/images/linkedin_button.png` } alt='linkedin coffee' className='socials-img'/>
+                            <img src={ `${process.env.PUBLIC_URL}/images/linkedin_button.PNG` } alt='linkedin coffee' className='socials-img'/>
                         </button>
                     </div>
                 
