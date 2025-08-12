@@ -31,16 +31,16 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
 
                 <button 
                     className='lang-buttons'
-                    onClick={ () => popUpImg('/images/kotlin_tag.PNG', 3) }
+                    onClick={ () => popUpImg('/images/kotlin_tag.png', 3) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/kotlin_button.png`} alt='kotlin mille feuille' className='lang-img'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/kotlin_button.PNG`} alt='kotlin mille feuille' className='lang-img'/>
                 </button>
 
                 <button 
                     className='lang-buttons'
-                    onClick={ () => popUpImg('/images/javascript_tag.PNG', 4) }
+                    onClick={ () => popUpImg('/images/javascript_tag.png', 4) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/javascript_button.png` } alt='javascript cupcake' className='lang-img'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/javascript_button.PNG` } alt='javascript cupcake' className='lang-img'/>
                 </button>
             </div>
 
@@ -48,9 +48,9 @@ function DisplayCase({ popUpImg, TAG_BACK }) {
             <div className='shelf-mid'>
                 <button 
                     className='lang-buttons'
-                    onClick={ () => popUpImg('/images/html_tag.PNG', 5) }
+                    onClick={ () => popUpImg('/images/html_tag.png', 5) }
                 >
-                    <img src={ `${process.env.PUBLIC_URL}/images/html_button.png` } alt='html cookies' className='lang-img'/>
+                    <img src={ `${process.env.PUBLIC_URL}/images/html_button.PNG` } alt='html cookies' className='lang-img'/>
                 </button>
 
                 <button 
