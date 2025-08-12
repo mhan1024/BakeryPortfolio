@@ -1,0 +1,47 @@
+
+.letter-container {
+    width: 50%;
+    height: 50%;
+
+    z-index: 2;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+}
+
+.letter-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    color: #683f30;
+}
+
+.copy-button {
+    border: none;
+    background: none;
+    color: #683f30;
+}
+
+.copy-button:hover {
+    background-color: #344966;
+    color: #ffef8e;
+    border-radius: 2.5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.letter-text {
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

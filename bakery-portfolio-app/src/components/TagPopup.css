@@ -1,0 +1,80 @@
+
+.tag-background {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    z-index: 3; 
+    backdrop-filter: blur(15px);
+}
+
+.tag {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag-container {
+    display: inline-block;
+    height: 100%;
+    width: 38.5%;
+}
+
+.tag-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+
+}
+
+.tag-text {
+    width: 35%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.proj-info, .proj-info a {
+    color: #683f30;
+    font-family: "Indie Flower", cursive;
+    font-style: normal;
+    text-align: center;
+}
+
+.proj-info a {
+    font-size: xx-large;
+}
+  
+.close-button, .flip-button, .prev-button, .next-button {
+    background: none;
+    height: 5%;
+    width: 5%;
+    border: none;
+    color: #683f30;
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.flip-button {
+    position: absolute;
+    bottom: 1%;
+}
+
+.close-button:hover, .flip-button:hover, .prev-button:hover, .next-button:hover {
+    background-color: #ffef8e;
+    border-radius: 2.5px;
+}
+
+.prev-button i, .next-button i {
+    font-size: x-large;
+}

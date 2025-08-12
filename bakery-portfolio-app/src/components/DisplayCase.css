@@ -1,0 +1,94 @@
+.display-case {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+.display-img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.coffee-shelf {
+    position:fixed;
+    top: 25%;
+    right: 12%;
+    height: auto;
+    width: 17%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.coffee-shelf-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+
+    position: relative;
+}
+
+
+.shelf-top, .shelf-mid, .shelf-bottom {
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-50%);
+    height:auto;
+    width: 45%;
+    left: 75%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1%;
+
+}
+
+.shelf-top {
+    bottom: 33%;
+}
+
+.shelf-mid {
+    bottom: 19.5%;
+}
+
+.shelf-bottom {
+    bottom: 5%;
+}
+
+.lang-buttons {
+    border: none;
+    background: none;
+    width: 25%;
+    z-index: 2;
+    padding: 0;
+}
+
+.lang-buttons:hover, .socials-buttons:hover {
+    scale: 1.5;
+}
+
+.lang-img {
+    height: auto;
+    width: 110%;
+    display: block;
+    object-fit: contain;
+}
+
+
+#css-parfait, #c-plus-plus-flan {
+    transform: translateY(-7.5%);
+}
+
+#swift-lemon {
+    transform: translateY(7.5%);
+}
