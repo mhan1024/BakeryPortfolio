@@ -30,7 +30,7 @@ function LetterPopup({isOpen, onClose}) {
 
     return (
     <div className='letter-container'>
-        <img src='/images/letter_blank.png' alt='letter' className='letter-img'/>
+        <img src={ process.env.PUBLIC_URL + '/images/letter_blank.png' } alt='letter' className='letter-img'/>
         <div className='overlay-text'>
             <div ref={ letterRef } >
                 <p className='letter-text'>I&apos;d love to hear from you — don&apos;t hesitate to say hi!</p>

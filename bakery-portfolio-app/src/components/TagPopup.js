@@ -73,7 +73,7 @@ function TagPopup({ blur, currIndex, tagImg, showFront, TAG_BACK, flipTag, chang
                 </button>
 
                 <div className='tag-container'>
-                    <img src={ tagImg } alt='tag' className='tag-img'/>
+                    <img src={ process.env.PUBLIC_URL + tagImg } alt='tag' className='tag-img'/>
                     { tagImg === TAG_BACK && projs[currIndex].length > 0 &&  projs[currIndex][0].title && <div className='tag-text'>
                         {
                             projs[currIndex].map((p, i) => (
