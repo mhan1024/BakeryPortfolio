@@ -1,0 +1,21 @@
+.loading-container {
+    width: 100%;
+    height: 100%;
+    background-color: #BEB8EB;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading-img {
+    width: 25%;
+    height: auto;
+}
+
+.loading-text {
+    color: #683f30;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+}

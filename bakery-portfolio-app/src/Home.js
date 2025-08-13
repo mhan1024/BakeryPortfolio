@@ -5,6 +5,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import LetterPopup from './components/LetterPopup';
 import DisplayCase from './components/DisplayCase';
 import TagPopup from './components/TagPopup';
+import Loading from './components/Loading';
+import useAllImages from './hooks/useAllImages';
 
 function Home() {
     const [ letter, setLetter ] = useState(false);
@@ -15,7 +17,7 @@ function Home() {
     const [ currIndex, setCurrIndex ] = useState(0);
 
     const blurRef = useRef(null);
-
+    const loading = useAllImages();
     const TAG_BACK = '/images/tag_back.png';
     const NUM_TAGS = 12;
     const tags = {
@@ -52,7 +54,6 @@ function Home() {
 
     }, [blur]);
 
-
     const closePopUp = () => {
         setBlur(false);
         setShowFront(true);
@@ -79,6 +80,8 @@ function Home() {
 
         popUpImg(tags[newIndex], newIndex);
     }
+
+    if (loading) return <Loading />;
 
     return (
         <div className="Home">
