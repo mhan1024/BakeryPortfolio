@@ -12,7 +12,9 @@
     height: 100%;
     width: 12%;
     flex-shrink: 0;
-    background-color: green;
+    background-image: url("../public/images/side_panels.png");
+    background-size: 250%;
+    background-position: center;
 }
 
 .center-background {
