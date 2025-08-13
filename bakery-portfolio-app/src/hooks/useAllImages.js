@@ -5,7 +5,13 @@ function useAllImages() {
     const [ loading, setLoading ] = useState(true);
 
     useEffect(() => {
-        preloadImages().then(() => setLoading(false));
+        const time = 1000;
+        const start = Date.now();
+
+        preloadImages().then(() => {
+            const elapsed = Date.now() - start;
+            setTimeout(() => setLoading(false), Math.max(0, time - elapsed));
+        });
 
     }, []);
 
