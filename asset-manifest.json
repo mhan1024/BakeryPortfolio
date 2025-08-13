@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/BakeryPortfolio/static/css/main.2a041c24.css",
-    "main.js": "/BakeryPortfolio/static/js/main.ecc31a18.js",
+    "main.css": "/BakeryPortfolio/static/css/main.9e2e2de8.css",
+    "main.js": "/BakeryPortfolio/static/js/main.1440c186.js",
     "static/js/453.e6a93ccf.chunk.js": "/BakeryPortfolio/static/js/453.e6a93ccf.chunk.js",
     "static/media/cafe_background.png": "/BakeryPortfolio/static/media/cafe_background.beb68c8eabe1ca691cd4.png",
     "static/media/bootstrap-icons.woff?": "/BakeryPortfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/BakeryPortfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/BakeryPortfolio/index.html",
-    "main.2a041c24.css.map": "/BakeryPortfolio/static/css/main.2a041c24.css.map",
-    "main.ecc31a18.js.map": "/BakeryPortfolio/static/js/main.ecc31a18.js.map",
+    "main.9e2e2de8.css.map": "/BakeryPortfolio/static/css/main.9e2e2de8.css.map",
+    "main.1440c186.js.map": "/BakeryPortfolio/static/js/main.1440c186.js.map",
     "453.e6a93ccf.chunk.js.map": "/BakeryPortfolio/static/js/453.e6a93ccf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a041c24.css",
-    "static/js/main.ecc31a18.js"
+    "static/css/main.9e2e2de8.css",
+    "static/js/main.1440c186.js"
   ]
 }
