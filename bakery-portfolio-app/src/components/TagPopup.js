@@ -33,8 +33,14 @@ function TagPopup({ blur, currIndex, tagImg, showFront, TAG_BACK, flipTag, chang
         4 : [{
                 title : 'Application Tracker (Web)', 
                 desc : 'A web app version of a job applications tracker.',
-                techStack: ['MongoDB', 'Node.js', 'Express', 'HTML/CSS'], 
+                techStack: ['MongoDB', 'Node.js', 'Express', 'Render', 'HTML/CSS'], 
                 repo : 'https://github.com/mhan1024/applicationTrackerWebApp'
+            },
+            {
+                title : 'Portfolio',
+                desc : 'A React, bakery/cafe-themed portfolio showcasing my projects across multiple programming languages and tools. ', 
+                techStack : [ 'HTML/CSS', 'React', 'Procreate', 'GitHub Pages' ],
+                repo : 'https://github.com/mhan1024/BakeryPortfolio'
             }],
         5 : [{}],
         6 : [{}],

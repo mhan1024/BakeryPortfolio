@@ -19,14 +19,14 @@
 .tag-container {
     display: inline-block;
     height: 100%;
-    width: 38.5%;
+    width: auto;
 }
 
 .tag-img {
     display: block;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 2;
 
 }
@@ -34,9 +34,18 @@
 .tag-text {
     width: 35%;
     position: absolute;
-    top: 25%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+
+}
+
+.proj-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
@@ -68,13 +77,32 @@
 .flip-button {
     position: absolute;
     bottom: 1%;
+    background-color: #ffef8e;
+    border-radius: 2.5px;
+    height: 3%;
 }
 
-.close-button:hover, .flip-button:hover, .prev-button:hover, .next-button:hover {
+.next-button {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}
+
+.prev-button {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.close-button:hover, .prev-button:hover, .next-button:hover {
     background-color: #ffef8e;
     border-radius: 2.5px;
 }
 
 .prev-button i, .next-button i {
     font-size: x-large;
+}
+
+.flip-button:hover {
+    background-color: #BAD7F2;
 }
