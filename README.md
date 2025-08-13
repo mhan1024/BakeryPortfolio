@@ -14,7 +14,7 @@ A React-based, bakery/café–themed portfolio presenting my computer science pr
 <h3>Skills & Tools</h3>
 <ul>
   <li>Front-end: React, JavaScript, HTML/CSS</li>
-  <li>Tools: Git, GitHub Pages</li>
+  <li>Tools: Git, GitHub Pages, Procreate</li>
 </ul>
 
 <h3>Demo</h3>
