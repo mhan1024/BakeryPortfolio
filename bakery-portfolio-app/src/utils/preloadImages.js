@@ -1,8 +1,10 @@
-
+// Preload the images ahead of time 
 async function preloadImages() {
+    // Get the image paths 
     const res = await fetch(`${ process.env.PUBLIC_URL }/images.json`);
     const paths = await res.json();
 
+    // Track whether if each image has been loaded
     return new Promise((r) => {
         let loadedImgs = 0;
 

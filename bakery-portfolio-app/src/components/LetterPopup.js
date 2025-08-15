@@ -3,12 +3,17 @@ import './Letter.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function LetterPopup({isOpen, onClose}) {
+    // Creates a box that will hold the letter popup's DOM element 
     const letterRef = useRef(null);
 
+    // Run this effect when the letter popup is either opened or closed
     useEffect(() => {
+        // If the popup is not open, do nothing
         if (!isOpen) return;
 
+        // Check if user clicked outside the popup
         function handleClick(event) {
+            // If so, close the popup
             if (letterRef.current && !letterRef.current.contains(event.target)) {
                 onClose();
             }
@@ -21,11 +26,13 @@ function LetterPopup({isOpen, onClose}) {
         };
     }, [isOpen, onClose]);
 
+    // Handles when the user clicks on the "copy email" button and email is copied/saved to the user's clipboard
     const copyEmail = () => {
         navigator.clipboard.writeText("mhan10242019@gmail.com")
             .catch(err => console.error(err));
     }
 
+    // Stop rendering if popup isn't open
     if (!isOpen) return null;
 
     return (
