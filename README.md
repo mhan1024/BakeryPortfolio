@@ -18,4 +18,4 @@ A React-based, bakery/café–themed portfolio presenting my computer science pr
 </ul>
 
 <h3>Demo</h3>
-<a href="https://youtu.be/We0UumIteww?si=JGDZDWVjaDUiqKVn">Check out the app!</a>
+<a href="https://youtu.be/NE0TYnlfwAc">Check out the app!</a>
