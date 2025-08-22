@@ -36,23 +36,25 @@ function LetterPopup({isOpen, onClose}) {
     if (!isOpen) return null;
 
     return (
-    <div className='letter-container'>
-        <img src={ `${process.env.PUBLIC_URL}/images/letter_blank.PNG` } alt='letter' className='letter-img'/>
-        <div className='overlay-text'>
-            <div ref={ letterRef } >
-                <p className='letter-text'>I&apos;d love to hear from you — don&apos;t hesitate to say hi!</p>
-                <p className='letter-text'>
-                    mhan10242019@gmail.com
-                    <button
-                        className='copy-button'
-                        onClick={ copyEmail }    
-                    >
-                        <i className="bi bi-copy"></i>
-                    </button>
-                </p>
+        <div className='letter-backdrop'>
+            <div className='letter-container'>
+                <img src={ `${process.env.PUBLIC_URL}/images/letter_blank.PNG` } alt='letter' className='letter-img'/>
+                <div className='overlay-text'>
+                    <div ref={ letterRef } >
+                        <p className='letter-text'>I&apos;d love to hear from you — don&apos;t hesitate to say hi!</p>
+                        <p className='letter-text'>
+                            mhan10242019@gmail.com
+                            <button
+                                className='copy-button'
+                                onClick={ copyEmail }    
+                            >
+                                <i className="bi bi-copy"></i>
+                            </button>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>);
+        </div>);
 
 
 }

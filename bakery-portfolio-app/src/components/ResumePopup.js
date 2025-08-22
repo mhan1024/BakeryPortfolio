@@ -3,10 +3,10 @@ import './ResumePopup.css';
 
 function ResumePopup({isOpen, onClose}) {
 
-    // Creates a box that will hold the letter popup's DOM element 
+    // Creates a box that will hold the resume popup's DOM element 
     const resRef = useRef(null);
 
-    // Run this effect when the letter popup is either opened or closed
+    // Run this effect when the resume popup is either opened or closed
     useEffect(() => {
         // If the popup is not open, do nothing
         if (!isOpen) return;
@@ -41,26 +41,26 @@ function ResumePopup({isOpen, onClose}) {
     if (!isOpen) return null;
 
     return (
-        <div className='res-container' ref={ resRef }>
-            <img src={ `${process.env.PUBLIC_URL}/images/resume_frame_blank.png` } alt='resume frame' className='res-img'/>
+        <div className='res-backdrop'>
+            <div className='res-container' ref={ resRef }>
+                <img src={ `${process.env.PUBLIC_URL}/images/resume_frame_blank.png` } alt='resume frame' className='res-img'/>
 
-            <div className='res-buttons-box'>
-                <button 
-                    className='res-button'
-                    onClick={ () => window.open(`${process.env.PUBLIC_URL}/images/Michelle_Han.pdf`, '_blank')}
-                >
-                    Preview
-                </button>
+                <div className='res-buttons-box'>
+                    <button 
+                        className='res-button'
+                        onClick={ () => window.open(`${process.env.PUBLIC_URL}/images/Michelle_Han.pdf`, '_blank')}
+                    >
+                        Preview
+                    </button>
 
-                <button
-                    className='res-button'
-                    onClick={ downloadRes }
-                >
-                    Download
-                </button>
+                    <button
+                        className='res-button'
+                        onClick={ downloadRes }
+                    >
+                        Download
+                    </button>
+                </div>
             </div>
-
-            
         </div>
     );
 
