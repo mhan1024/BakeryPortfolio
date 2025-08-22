@@ -16,27 +16,6 @@
     display: block;
 }
 
-.coffee-shelf {
-    position:fixed;
-    top: 25%;
-    right: 12%;
-    height: auto;
-    width: 17%;
-    padding: 0;
-    margin: 0;
-    z-index: 1;
-}
-
-.coffee-shelf-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    z-index: 1;
-
-    position: relative;
-}
-
 
 .shelf-top, .shelf-mid, .shelf-bottom {
     position: absolute;
@@ -73,7 +52,7 @@
     padding: 0;
 }
 
-.lang-buttons:hover, .socials-buttons:hover {
+.lang-buttons:hover {
     scale: 1.5;
 }
 

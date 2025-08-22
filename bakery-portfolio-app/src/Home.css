@@ -31,6 +31,27 @@
     justify-content: center;
 }
 
+.coffee-shelf {
+    position:fixed;
+    top: 25%;
+    right: 12%;
+    height: auto;
+    width: 17%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.coffee-shelf-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+
+    position: relative;
+}
+
 .socials-buttons {
     border: none;
     background: none;
@@ -40,7 +61,11 @@
     padding: 0;
 }
 
-.socials-img {
+.socials-buttons:hover, .resume-frame-button:hover {
+    scale: 1.5;
+}
+
+.socials-img, .resume-frame-img {
     height: auto;
     width: 100%;
     display: block;
@@ -49,7 +74,7 @@
     scale: 1.25;
 }
 
-.coffee-buttons {
+.coffee-buttons  {
     position: absolute;
     bottom: 50%;   
     left: 50%;
@@ -78,4 +103,30 @@
 }
 
 
+.resume-box {
+    position: absolute;
+    top: 29%;
+    left: 83%;
 
+    width: 12%;
+    height: 20%;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.resume-frame-button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.resume-frame-img {
+    height: 80%;
+}

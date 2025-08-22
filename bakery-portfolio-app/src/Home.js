@@ -5,11 +5,13 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import LetterPopup from './components/LetterPopup';
 import DisplayCase from './components/DisplayCase';
 import TagPopup from './components/TagPopup';
+import ResumePopup from './components/ResumePopup';
 import Loading from './components/Loading';
 import useAllImages from './hooks/useAllImages';
 
 function Home() {
     const [ letter, setLetter ] = useState(false);
+    const [ res, setRes ] = useState(false);
     const [ blur, setBlur ] = useState(false);
     const [ tagImg, setTagImg ] = useState(null);
     const [ frontTag, setFrontTag ] = useState(null);
@@ -116,6 +118,8 @@ function Home() {
                 {/* Set up for how the letter popup's layout should appear */}
                 <LetterPopup isOpen={ letter } onClose={ () => setLetter(false) } />
 
+                <ResumePopup isOpen={ res } onClose={ () => setRes(false) } />
+
                 <div className='barista'>
                     <img src={ `${process.env.PUBLIC_URL}/images/barista.png` } alt='barista' className='barista-img'/>
                 </div>
@@ -145,8 +149,22 @@ function Home() {
                             <img src={ `${process.env.PUBLIC_URL}/images/linkedin_button.PNG` } alt='linkedin coffee' className='socials-img'/>
                         </button>
                     </div>
+
+                    
                 
                 </div>
+
+                <div className='resume-box'>
+                    <button 
+                        className='resume-frame-button'
+                        onClick={ () => setRes(true) }    
+                    >
+                        <img src={ `${process.env.PUBLIC_URL}/images/resume_frame.png` } alt='resume frame' className='resume-frame-img'/>
+                    </button>
+                </div>
+                
+
+                
 
                 {/* Set up for how the display case layout should appear */}
                 <DisplayCase popUpImg={ popUpImg }  TAG_BACK={ TAG_BACK }/>
